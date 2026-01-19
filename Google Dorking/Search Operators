@@ -1,0 +1,8 @@
+site         ex print site:python.org
+inurl        ex "/course/jumpto.php" site:example.com.
+intitle      ex intitle:"index of" site:example.com
+link         ex link:"https://en.wikipedia.org/wiki/ReDoS"
+filetype     ex filetype:log site:example.com.
+wildcard(*)   ex "how to hack * using Google"   result :- how to hack websites using Google, how to hack applications 
+Or (|)       ex "how to hack" site:(reddit.com | stackoverflow.com).    
+minus (-)    ex  "how to hack websites" -php.  remove php in this search as we dont want

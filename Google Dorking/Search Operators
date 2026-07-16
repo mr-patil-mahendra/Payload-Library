@@ -6,3 +6,13 @@ filetype     ex filetype:log site:example.com.
 wildcard(*)   ex "how to hack * using Google"   result :- how to hack websites using Google, how to hack applications 
 Or (|)       ex "how to hack" site:(reddit.com | stackoverflow.com).    
 minus (-)    ex  "how to hack websites" -php.  remove php in this search as we dont want
+
+| Operator | Purpose                          | Example                      |
+| -------- | -------------------------------- | ---------------------------- |
+| `" "`    | Exact phrase match               | `"cyber security"`           |
+| `-`      | Exclude a word                   | `linux -ubuntu`              |
+| `OR`     | Either keyword                   | `windows OR linux`           |
+| `AND`    | Both keywords (usually optional) | `python AND security`        |
+| `()`     | Group expressions                | `(linux OR windows) hacking` |
+| `*`      | Wildcard                         | `"best * tools"`             |
+| `..`     | Number range                     | `laptop $500..1000`          |
